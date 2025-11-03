@@ -10,7 +10,7 @@ done
 if [ "x$2" = "xyes" ]
 then
 sed -i -e '
-1i# Workaround for systems where common UNIX utilities are symlinks to busybox.\
+1i# Workaround for systems where common UNIX utilities are symlinks to Busybox.\
 # If this is not your case you can remove --enable-busybox-workaround from\
 # ./configure options, for added security.\
 noblacklist \${PATH}/mount\
